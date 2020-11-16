@@ -48,6 +48,6 @@ jobs:
       with:
         REPOSITORY_NAME: PRODUCTION_ORGANISATION/PRODUCTION_REPOSITORY
         ACCESS_TOKEN: ${{ secrets.token }}
-        BRANCH: gh-pages
+        BRANCH: master #gh-pages
         FOLDER: _site
         CLEAN: true
